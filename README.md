@@ -25,3 +25,22 @@
 Установка зависимостей:
 ```bash
 pip install requests beautifulsoup4
+
+Структура проекта
+│
+├── script.py               # Основной скрипт
+├── credentials.py          # Учётные данные (не в репозитории)
+├── example.csv             # Пример CSV-файла (файл делаешь сам)
+├── mailbox_creation.log    # Лог выполнения
+├── created_accounts.csv    # Общий список созданных ящиков
+
+
+## Требования
+
+Настройка: credentials.py
+Создайте файл credentials.py в той же директории, что и script.py:
+
+python
+
+
+
